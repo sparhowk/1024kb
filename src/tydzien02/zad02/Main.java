@@ -5,7 +5,7 @@ public class Main {
         Engine oil = new Engine("beznzyna");
         Engine disel = new Engine("disel");
 
-        Car carOne = new Car("Maluch", "Biłay", oil);
+        Car carOne = new Car("Maluch", "Biłay", new Engine("spalinowy"));
         Car carTwo = new Car("Skoda", "black", disel);
 
         System.out.println("Samochód " + carOne.brand + " ma silnik " + carOne.engine.typeEngine);
